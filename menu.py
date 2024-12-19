@@ -1,4 +1,6 @@
 
+import subprocess
+
 def menu():
 
     welcome = "Welcome to Geography Gallery! Choose from the many gamemodes listed below to begin!"
@@ -35,6 +37,7 @@ def european_countries():
 
 def european_capitals():
     print("You selected European Capitals!")
+    subprocess.call(["python", "Europe/europe_capitals.py"])
 
 def northamerican_countries():
     print("You selected North American Countries!")
