@@ -2,12 +2,14 @@ import time
 import random
 import json
 import subprocess
+import sys
+
 with open("Europe/european_countries_and_capitals.json") as json_file:
     capitals = json.load(json_file)
     c = capitals
 
 
-print("Welcome to the European Capitals quiz!")
+print("Welcome to the European capitals quiz!")
 time.sleep(0.75)
 print("A European country will be shown and you will need to guess it's capital.")
 time.sleep(0.75)
@@ -37,7 +39,6 @@ def quiz(c):
     else:
         print("Goodbye!")
         time.sleep(2)
-        subprocess.call(["python", "menu.py"])
 
 
 if play == "y":
@@ -46,7 +47,6 @@ if play == "y":
 elif play == "n":
     print("Goodbye!")
     time.sleep(2)
-    subprocess.call(["python", "menu.py"])
 
 
 
