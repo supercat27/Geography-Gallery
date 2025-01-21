@@ -1,2 +1,9 @@
 ﻿# Geography-Gallery
-Geography Gallery is collection of games where the player is given the task of guessing countries, capitals, or geographical features
+Geography Gallery is collection of geography games.
+
+Currently:
+- European Map
+- European Capitals
+- European Flags
+
+- North American Capitals
